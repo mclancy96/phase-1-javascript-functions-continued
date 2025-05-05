@@ -5,3 +5,9 @@ const saturdayFun = (funActivity = 'roller-skate') => {
 const mondayWork = function (activity = "go to the office") {
     return `This Monday, I will ${activity}.`
 }
+
+const wrapAdjective = (whateverYouLike = "*") => {
+    return (howeverYouWish = "special") => {
+        return `You are ${whateverYouLike + howeverYouWish + whateverYouLike}!`;
+    }
+}
